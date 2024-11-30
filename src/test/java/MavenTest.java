@@ -12,7 +12,7 @@ WebDriver driver;
 		 driver = new ChromeDriver();
 		
 		driver.get("https://www.google.com");
-		System.out.println("chrome was opened");
+		System.out.println("chrome  opened");
 	}
 	
 	
@@ -20,6 +20,6 @@ WebDriver driver;
 	void closeChrome() throws InterruptedException {
 		Thread.sleep(3000);
 		driver.close();
-		System.out.println("chrome was closed");
+		System.out.println("chrome  closed");
 	}
 }
